@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MAX3232CPWR
+#/236831/291095/2.49/16/3/Integrated Circuit
+DEF MAX3232CPWR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MAX3232CPWR" 1050 200 50 H V L CNN
+F2 "SOP65P640X120-16N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/max3232" 1050 0 50 H I L CNN
+F4 "3-V to 5.5-V multichannel RS-232 line driver & receiver" 1050 -100 50 H I L CNN "Description"
+F5 "1.2" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MAX3232CPWR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-MAX3232CPWR" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/MAX3232CPWR?qs=bkMXpVdiF40tDMAEI%2F4vWA%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MAX3232CPWR" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/max3232cpwr/texas-instruments" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X C1+ 1 0 0 200 R 50 50 0 0 P
+X V+ 2 0 -100 200 R 50 50 0 0 P
+X C1- 3 0 -200 200 R 50 50 0 0 P
+X C2+ 4 0 -300 200 R 50 50 0 0 P
+X C2- 5 0 -400 200 R 50 50 0 0 P
+X V- 6 0 -500 200 R 50 50 0 0 P
+X DOUT2 7 0 -600 200 R 50 50 0 0 P
+X RIN2 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1200 0 200 L 50 50 0 0 P
+X GND 15 1200 -100 200 L 50 50 0 0 P
+X DOUT1 14 1200 -200 200 L 50 50 0 0 P
+X RIN1 13 1200 -300 200 L 50 50 0 0 P
+X ROUT1 12 1200 -400 200 L 50 50 0 0 P
+X DIN1 11 1200 -500 200 L 50 50 0 0 P
+X DIN2 10 1200 -600 200 L 50 50 0 0 P
+X ROUT2 9 1200 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

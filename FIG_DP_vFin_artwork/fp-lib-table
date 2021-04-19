@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name FOOTPRINT)(type KiCad)(uri ${KIPRJMOD}/simbol/FOOTPRINT)(options "")(descr ""))
+  (lib (name Andy_TradeMark)(type KiCad)(uri E:/Avokadolab/Embedded/KICAD/KICAD_2021/Image/Andy_TradeMark)(options "")(descr ""))
+  (lib (name AVOKADOLAB)(type KiCad)(uri E:/Avokadolab/Embedded/KICAD/KICAD_2021/Image/AVOKADOLAB)(options "")(descr ""))
+)
